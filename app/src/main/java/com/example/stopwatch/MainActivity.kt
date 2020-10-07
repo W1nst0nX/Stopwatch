@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         chronometer_main_timer.stop()
         Log.d(TAG, "onCreate has been called")
 
-        // ?. builds an "if not null", short for checking if variable is null via an if statement
+        // ?. builds an "if not null", short for checking if variable is null via an if statement.
         // ?: is the elvis operator. What comes after is the default value if savedInstanceState is null
         timeWhenStopped = savedInstanceState?.getLong(KEY_CHECK_STOPPED) ?: 0L
         timeElapsed = savedInstanceState?.getLong(KEY_TIME_ELAPSED) ?: 0L
