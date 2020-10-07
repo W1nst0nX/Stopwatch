@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private val KEY_CHECK_STATUS = "on or off"
     private val KEY_CHECK_STOPPED = "time when stopped"
 
-    //Bundle? signlas that Bundle could be a null value
+    //Bundle? signals that Bundle could be a null value
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
